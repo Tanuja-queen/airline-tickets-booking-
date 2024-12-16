@@ -1,0 +1,38 @@
+/* Styles for printing */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+button {
+    display: none; /* Hide the print button when printing */
+}
+
+/* Hide non-essential elements when printing */
+@media print {
+    header, footer {
+        display: none;
+    }
+
+    .action-buttons {
+        display: none;
+    }
+}

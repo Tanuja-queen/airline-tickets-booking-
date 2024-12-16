@@ -1,0 +1,96 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #004d99;
+}
+
+/* Table Styles */
+.flights-section {
+    margin-top: 30px;
+}
+
+.flights-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.flights-table th, .flights-table td {
+    padding: 12px 20px;
+    text-align: center;
+}
+
+.flights-table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.flights-table td {
+    background-color: #f9f9f9;
+}
+
+.flights-table tr:nth-child(even) td {
+    background-color: #f2f2f2;
+}
+
+.flights-table tr:hover td {
+    background-color: #e0e0e0;
+}
+
+/* Action Buttons */
+.edit-btn, .delete-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.edit-btn {
+    background-color: #4CAF50;
+}
+
+.edit-btn:hover {
+    background-color: #45a049;
+}
+
+.delete-btn {
+    background-color: #f44336;
+}
+
+.delete-btn:hover {
+    background-color: #e53935;
+}

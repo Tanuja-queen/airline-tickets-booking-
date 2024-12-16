@@ -1,0 +1,69 @@
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 85%;  /* Increased container width for better spacing */
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;  /* Added margin for spacing */
+}
+
+.navbar {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.navbar a {
+    margin: 0 25px;
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 15px;  /* Increased space between columns */
+}
+
+th, td {
+    padding: 20px;  /* Increased padding for more space inside cells */
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+    width: 18%;  /* Increased width for each column */
+}
+
+th {
+    background-color: #f4f4f4;
+    color: #555;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 30px;
+}
